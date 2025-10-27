@@ -26,3 +26,28 @@ print(type(arr)) # Output: <class 'numpy.ndarray'> // NumPy arrays are of type '
 
 #######################################################################
 
+arr = np.array(69) # 0D array
+print(arr)
+
+arr = np.array([1,2,4,5,6,7]) # 1D array
+print(arr)
+
+arr = np.array([[1, 2, 3], [4, 5, 6]]) # 2D array
+print(arr)
+
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]]) # 3D array 
+print(arr)
+
+
+a = np.array(42)
+b = np.array([1, 2, 3, 4, 5])
+c = np.array([[1, 2, 3], [4, 5, 6]])
+d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+print(a.ndim)
+print(b.ndim)
+print(c.ndim)
+
+
+arr = np.array([1, 2, 3, 4], ndmin=5)
+print(arr)
+print('number of dimensions :', arr.ndim)
