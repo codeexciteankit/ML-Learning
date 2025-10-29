@@ -48,6 +48,8 @@ print(b.ndim)
 print(c.ndim)
 
 
+# ...existing code...
 arr = np.array([1, 2, 3, 4], ndmin=5)
 print(arr)
 print('number of dimensions :', arr.ndim)
+# ...existing code...
